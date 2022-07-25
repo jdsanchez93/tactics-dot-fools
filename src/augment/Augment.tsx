@@ -5,7 +5,7 @@ export function Augment(props: any) {
     return (
         <div>
             <h1 className='header'>augment</h1>
-            <div>{props.name}</div>
+            <p className='header'>{props.name}</p>
             <img src={props.url}></img>
         </div>
     );
